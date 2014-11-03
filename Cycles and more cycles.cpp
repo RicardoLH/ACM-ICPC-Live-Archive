@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int t;
-int n;
-int k;
+int t, n, k;
 long long int memo[1<<16][16];
 long long int cubeta;
 int nodos[17];
